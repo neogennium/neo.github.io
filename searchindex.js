@@ -13,6 +13,6 @@ function SearchPage(url, title, keywords, description)
 function SearchDatabase()
 {
    database_length = 0;
-   this[database_length++] = new SearchPage("index.html", "Untitled Page", "untitled page business company… ¡gua ca«arola fogo our customers consulting home about nbsp us services support contact welcome to website lorem ipsum dolor sit amet consectetur adipiscing elit integer nec odio praesent libero sed cursus ante dapibus diam nisi nulla quis sem at nibh elementum imperdiet duis sagittis mauris fusce tellus augue semper porta massa vestibulum lacinia arcu eget analysis class aptent taciti sociosqu ad litora torquent per conubia nostra inceptos himenaeos curabitur sodales ligula in copyright by quot your name all rights reserved mail yourname domain com follow ", "");
+   this[database_length++] = new SearchPage("index.html", "Untitled Page", "untitled page business company√â √Ågua ca√áarola fogo our customers consulting home about nbsp us services support contact welcome to we √ß√£o bsite lorem ipsum dolor sit amet consectetur adipiscing elit integer nec odio praesent libero sed cursus ante dapibus diam nisi nulla quis sem at nibh elementum imperdiet duis sagittis mauris fusce tellus augue semper porta massa vestibulum lacinia arcu eget analysis class aptent taciti sociosqu ad litora torquent per conubia nostra inceptos himenaeos curabitur sodales ligula in copyright by quot your name all rights reserved mail yourname domain com follow ", "");
    return this;
 }
