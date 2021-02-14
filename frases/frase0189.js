@@ -1,0 +1,6 @@
+<!--
+document.write ("<p><b><i>&nbsp;&quot;O futebol demonstrou como pode ser utilizado para a legitima&ccedil;&atilde;o. Isso ocorreu na Copa do mundo de 70. O governo M&eacute;dici jogou tudo em cima dela. Precisava legitimar-se. Ele era um presidente impopular. Fora uma op&ccedil;&atilde;o das For&ccedil;as Armadas.</i></p><p><i>A AERP resolveu o problema. identificou-o com o futebol para torn&aacute;-lo popular. A sele&ccedil;&atilde;o brasileira colaborou bastante. Conquistou o tricampeonato mundial. O t&iacute;tulo abafou um dos per&iacute;odos mais autorit&aacute;rios da hist&oacute;ria nacional. O futebol foi c&uacute;mplice de pris&otilde;es lotadas de presos pol&iacute;ticos. Torturas e assassinatos conviveram coma euforia da Copa de 70.</i></p><p><i>O epis&oacute;dio n&atilde;o foi um fato isolado. Possui o m&eacute;rito de ser de dom&iacute;nio p&uacute;blico. Entretanto, n&atilde;o deve ficar catalogado como uma exce&ccedil;&atilde;o ou um epis&oacute;dio passado. O futebol est&aacute; a servi&ccedil;o da legitima&ccedil;&atilde;o de governos ditatoriais e impopulares, diariamente, de modo atemporal.&quot;</i></p></b><p>Roberto Ramos, no livro &quot;Futebol: Ideologia do Poder&quot;, Editora Vozes, 1984.</p>");
+document.write ("</td></tr></table>");
+document.write ("</center><br><br>");
+ // -->
+

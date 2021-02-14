@@ -1,0 +1,8 @@
+# robots.txt for http://www.pampalivre.info
+
+User-agent: *
+Disallow: /doacao_cancelada_via_paypal.htm
+Disallow: /doacao_recebida_com_sucesso_via_paypal.htm
+Disallow: /404.htm
+Disallow: /servererror.htm
+Disallow: /000-checa_links_quebrados.htm

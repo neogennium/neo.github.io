@@ -1,0 +1,6 @@
+<!--
+document.write ("<p><b><i>&quot;[Quando a manchete do Jornal Tribuna da Imprensa em 08/Ago/1988 foi...] </i></b><font color='red'><b><i>'Pol&iacute;cia Federal est&aacute; na caixinha da Globo'</i></b></font><b><i> tremi. Confesso que tremi. A not&iacute;cia era de uma esp&eacute;cie de an&uacute;ncio do apocalipse. Quando sa&iacute; de casa, como fazia habitualmente para comprar o jornal logo cedo, vi que havia algo estranho, muito estranho. Os bandidos que me vigiavam noite e dia, dia e noite (Pol&iacute;cia Federal, bicheiros, traficantes, assassinos profissionais - s&oacute; n&atilde;o identifiquei nenhum juiz. Afinal eles costumam agir no F&oacute;rum) estavam todos l&aacute;, mas de uma maneira muito esquisita (...colocaram...) um helic&oacute;ptero o dia inteiro sobrevoando a minha casa e dois ultraleves passando por cima da minha cabe&ccedil;a...&quot;</i></b></p><p>Rom&eacute;ro da Costa Machado, no livro <i>&quot;Afunda&ccedil;&atilde;o II - Uma biografia de corrup&ccedil;&atilde;o&quot;</i>, editora Meus Caros Amigos, 2&ordf; Edi&ccedil;&atilde;o, 1992, comentando os acontecimentos que acompanharam a publica&ccedil;&atilde;o do livro <i>&quot;Afunda&ccedil;&atilde;o Roberto Marinho&quot;</i>.</p>");
+document.write ("</td></tr></table>");
+document.write ("</center><br><br>");
+ // -->
+
