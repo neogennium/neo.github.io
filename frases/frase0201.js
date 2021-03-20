@@ -1,6 +1,0 @@
-<!--
-document.write ("<p>O jornal carioca 'A Federa&ccedil;&atilde;o', em 1912, j&aacute; atacava o povo ga&uacute;cho...</p><p><i>&quot;(...) A civiliza&ccedil;&atilde;o condenou os costumes desse passado morto em nome da delicadeza das maneiras e eleg&acirc;ncia do porte, a grande lei do progresso repudiou as suas pr&aacute;ticas como prejudiciais ao surto das ind&uacute;strias, (...) Esta palavra (ga&uacute;cho) &eacute;, pois, a evoca&ccedil;&atilde;o justa de um passado que n&atilde;o deve reviver.&quot;</i></p><p>No livro <i>&quot;</i><a href='livros_recomendados.htm#ManifestoGaucho'><i>Manifesto Ga&uacute;cho</i></a><i>&quot;</i>, de Evaldo Mu&ntilde;oz Braz, Martins Livreiro - Editor, Porto Alegre, 2000.</p><p><font color=gray>Como podemos ver hoje, um s&eacute;culo depois, os brazileiros e, em especial, os cariocas realmente atingiram o tal progresso defendido pelo &quot;A Federa&ccedil;&atilde;o&quot;: existem bandidos e traficantes armados com fuzis em todos os cantos da tal 'cidade maravilhosa', que &eacute;, apenas e t&atilde;o somente, uma intermin&aacute;vel favela sub-humana.</font></p>");
-document.write ("</td></tr></table>");
-document.write ("</center><br><br>");
- // -->
-

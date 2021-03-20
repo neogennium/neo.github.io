@@ -1,6 +1,0 @@
-<!--
-document.write ("<p><b><i>&quot;No programa 'Esporte ao Meio-dia', de 21 de julho, no quadro 'Fato do Dia', houve uma entrevista interessante. O assunto foi a viagem do Gr&ecirc;mio Porto-alegrense para o Uruguai. Ele disputaria o primeiro jogo com o Penharol, de Montevid&eacute;u, para final da Copa Libertadores da Am&eacute;rica.</i></p><p><i>O rep&oacute;rter R&eacute;gis Hoyer deu todas as informa&ccedil;&otilde;es sobre a viagem. Descreveu,, com apuro, o traje do treinador do Gr&ecirc;mio Valdir Espinosa. N&atilde;o se conteve. Entrevistou o roupeiro H&eacute;lio Oliveira para saber o n&uacute;mero de camisetas e chuteiras, levadas para o Uruguai.</i></p><p><i>Os meios de comunica&ccedil;&atilde;o radicalizam o futebol. A angula&ccedil;&atilde;o do notici&aacute;rio n&atilde;o se restringe &agrave; partida. Extrapola ao sup&eacute;rfulo. Preocupa-se com o guarda-roupa do t&eacute;cnico ou com a contabilidade do material esportivo. Isso se agrava, pois teve o destaque de 'Fato do Dia'.&quot;</i></p></b><p>Roberto Ramos, no livro &quot;Futebol: Ideologia do Poder&quot;, Editora Vozes, 1984.</p>");
-document.write ("</td></tr></table>");
-document.write ("</center><br><br>");
- // -->
-

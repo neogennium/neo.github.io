@@ -1,6 +1,0 @@
-<!--
-document.write ("A causa maior da Revolu&ccedil;&atilde;o Farroupilha, segundo os pr&oacute;prios Farrapos:<p><font size=4 color='red'><i>&quot;foi o resultado do progresso social&quot; &quot;o que nos impeliu no dia 20 de setembro de 1835, a romper um sil&ecirc;ncio vergonhoso, e a fazermos sentir ao governo do Brasil, que n&atilde;o se cansa impunemente a paci&ecirc;ncia de um povo livre: foi o resultado do nosso progresso social que levou os nossos patr&iacute;cios a correrem armados, a afrontar todos os perigos da guerra&quot;, para &quot;darem a si, a seus filhos e a todos seus descendentes, a liberdade; e &agrave; P&aacute;tria, sua prosperidade e independ&ecirc;ncia!&quot; &nbsp;</i></font></p><p>Fonte: Jornal <i>&quot;O Povo&quot;</i>, &nbsp;de Piratiny, &nbsp;<i>&quot;Jornal &nbsp;pol&iacute;tico, liter&aacute;rio, e &nbsp;ministerial da Rep&uacute;blica Riograndense&quot;</i>, de 6 de Outubro de 1838. Conforme cita&ccedil;&atilde;o em <a href='livros_recomendados.htm#HistoriaGrandeRevolucao'><i>Hist&oacute;ria da Grande Revolu&ccedil;&atilde;o</a>&quot;</i></font>, de Alfredo Varela, Vol. 1, p&aacute;g. 12.");
-document.write ("</td></tr></table>");
-document.write ("</center><br><br>");
- // -->
-

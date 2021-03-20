@@ -1,6 +1,0 @@
-<!--
-document.write ("<p><font size=4 color=red><i>&quot;Este passado da minha vida no Rio Grande se imprime em minha mem&oacute;ria como algo de sobrenatural, de m&aacute;gico, de verdadeiramente rom&acirc;ntico. Eu vi corpos de tropa mais numerosos, batalhas mais disputadas, mas nunca vi, em nenhuma parte, homens mais valentes, nem cavaleiros mais brilhantes do que os da bela cavalaria Rio-Grandense, em cujas&nbsp;filas principiei a desprezar o perigo e a combater dignamente pela causa das gentes. Onde est&atilde;o agora estes belicosos filhos do continente, t&atilde;o majestosamente terr&iacute;veis nos combates (?) (...) &Oacute;! Quantas vezes tenho desejado nestes campos italianos um s&oacute; esquadr&atilde;o de vossos centauros, avezados a carregar uma massa de infantaria com o mesmo desembara&ccedil;o como se fosse uma ponta de gado?&quot;</i></font></p><p>Carta que Garibaldi escreveu em Mantua (talvez 30 anos ap&oacute;s a Guerra dos Farrapos), na It&aacute;lia, ao combatente farrapo Domingos Jos&eacute; de Almeida, conforme cita&ccedil;&atilde;o no livro <i>&quot;</i><a href='livros_recomendados.htm#ManifestoGaucho'><i>Manifesto Ga&uacute;cho</i></a><i>&quot;</i>, de Evaldo Mu&ntilde;oz Braz, Martins Livreiro - Editor, Porto Alegre, 2000.</p>");
-document.write ("</td></tr></table>");
-document.write ("</center><br><br>");
- // -->
-

@@ -1,6 +1,0 @@
-<!--
-document.write ("<p><b><i>&quot;Pelo poderio pol&iacute;tico e econ&ocirc;mico, que permite &agrave; Globo comportar-se como um poder aut&ocirc;nomo e incontrol&aacute;vel, podemos dizer com convic&ccedil;&atilde;o que o maior problema da radiodifus&atilde;o brasileira &eacute; o monop&oacute;lio dessa empresa. N&atilde;o &eacute; o &uacute;nico problema, mas sem d&uacute;vida &eacute; o maior por ser a express&atilde;o mais gigantesca e acabada de um modelo comprometido com interesses antipopulares e antinacionais. Com a Nova Rep&uacute;blica (1985), a Globo teve seu poder fortalecido. Por isso, mais do que nunca &eacute; necess&aacute;rio conhecer a Globo e seus por&otilde;es. O desvendamento do passado e do presente da Globo constitui um subs&iacute;dio valioso para entendermos n&atilde;o s&oacute; a empresa de Roberto Marinho, mas tamb&eacute;m a natureza da pr&oacute;pria Nova Rep&uacute;blica. Uma Nova Rep&uacute;blica que sustenta a Globo e nela se sustenta.&quot;</i></b></p><p>Daniel Herz, no livro &quot;<i>A Hist&oacute;ria Secreta da Rede Globo</i>&quot; (editora tch&ecirc;, 1987).");
-document.write ("</td></tr></table>");
-document.write ("</center><br><br>");
- // -->
-

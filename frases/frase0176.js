@@ -1,6 +1,0 @@
-<!--
-document.write ("<p><b><i>&quot;A concentra&ccedil;&atilde;o no s&aacute;bado e no domingo &eacute; explic&aacute;vel, com facilidade. Nestes dias, os trabalhadores est&atilde;o de folga. Torna-se indispens&aacute;vel aumentar os programas de futebol. A realidade n&atilde;o pode ser pensada. &Eacute; preciso reproduzir a for&ccedil;a de trabalho e o sistema.</i></p><p><i>A segunda-feira &eacute; um dia dif&iacute;cil. Significa quase a volta &agrave; realidade. O trabalho traz a explora&ccedil;&atilde;o e a opress&atilde;o. O futebol &eacute; o sedativo para assegurar a m&atilde;o-de-obra dominada at&eacute; o fim da semana, rendendo capital para os bolsos burgueses.</i></p><p><i>A predomin&acirc;ncia do hor&aacute;rio noturno n&atilde;o tem mist&eacute;rio. Pega o trabalhador em casa. Toma conta de seus momentos livres. Neles, insinua conceitos capitalistas brandos, com a competitividade do futebol. Al&eacute;m disso, aliena a sua consci&ecirc;ncia de si, preparando-o para a jornada de trabalho do dia seguinte.</i></p></b><p>Roberto Ramos, no livro &quot;Futebol: Ideologia do Poder&quot;, Editora Vozes, 1984.</p>");
-document.write ("</td></tr></table>");
-document.write ("</center><br><br>");
- // -->
-

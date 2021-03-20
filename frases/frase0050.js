@@ -1,6 +1,0 @@
-<!--
-document.write ("<b><i>&quot;O direito de secess&atilde;o se concretizar&aacute; se e quando o momento hist&oacute;rico chegar, tal como aconteceu com o Brasil em rela&ccedil;&atilde;o a Portugal, ou com os Estados Unidos em rela&ccedil;&atilde;o &agrave; Inglaterra. Tudo permite admitir que o desate poder&aacute; ser feito atrav&eacute;s de simples reforma constitucional que dar&aacute; espa&ccedil;o a um plebiscito arejado, amplo e livre. At&eacute; l&aacute; os separatistas suportar&atilde;o a pecha de impatriotas. Mas resistir&atilde;o, lembrando-se de que tamb&eacute;m De Gaulle e Jean Moulin foram tachados de inimigos da p&aacute;tria e de subversivos pelo regime de Vichy, quando sozinhos come&ccedil;aram a lutar pela liberta&ccedil;&atilde;o da Fran&ccedil;a; de que Tiradentes foi igualmente apodado de louco e de lesa-p&aacute;tria pelas autoridades fi&eacute;is &agrave; Coroa portuguesa, de que os revolucion&aacute;rios de 1932, que o governo federal de ent&atilde;o denunciou ao pa&iacute;s como inimigos, hoje s&atilde;o referenciados at&eacute; pelo Ex&eacute;rcito, nas comemora&ccedil;&otilde;es realizadas em cada 9 de Julho...&quot;</i></b></p><p>Jo&atilde;o Nascimento Franco, no livro <i>&quot;Fundamentos do Separatismo&quot;.</i>");
-document.write ("</td></tr></table>");
-document.write ("</center><br><br>");
- // -->
-
