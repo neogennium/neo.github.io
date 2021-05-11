@@ -79,7 +79,7 @@ input:focus, textarea:focus, select:focus
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   width: 8.33333333%;
+   width: 100%;
    text-align: left;
 }
 #LayoutGrid1:before,
