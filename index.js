@@ -21,4 +21,15 @@
                      text = text + now.getFullYear() + ", Neogennium   ·  All rights reserved  ·";
                      var copyrightnotice = document.getElementById('copyrightnotice');
                      copyrightnotice.innerHTML = text;
+                                    
+                     var now = new Date();
+                     var startYear = "2001";
+                     var text =  "Copyright &copy; ";
+                     if (startYear != '')
+                     {
+                        text = text + startYear + "-";
+                     }
+                     text = text + now.getFullYear() + ", Neogennium   ·  All rights reserved  ·";
+                     var copyrightnotice = document.getElementById('copyrightnotice');
+                     copyrightnotice.innerHTML = text;
                   
