@@ -738,7 +738,7 @@ input:focus, textarea:focus, select:focus
    display: -webkit-flex;
    display: flex;
    position: relative;
-   padding: 200px 10px 200px 10px;
+   padding: 60px 10px 60px 10px;
    -webkit-flex-direction: row;
    flex-direction: row;
    -webkit-flex-wrap: nowrap;
@@ -755,12 +755,6 @@ input:focus, textarea:focus, select:focus
    border: 0px solid #CCCCCC;
    box-sizing: border-box;
    font-size: 0px;
-}
-#Layer1
-{
-   background-color: #FBFBFB;
-   background-image: none;
-   padding: 0;
 }
 #wb_Image1
 {
@@ -947,4 +941,25 @@ input:focus, textarea:focus, select:focus
    float: none;
    width: 100% !important;
 }
+}
+#wb_Image3
+{
+   margin: 0;
+   -webkit-flex-grow: 0;
+   flex-grow: 0;
+   -webkit-flex-shrink: 0;
+   flex-shrink: 0;
+   -webkit-align-self: auto;
+   align-self: auto;
+   vertical-align: top;
+}
+#Image3
+{
+   border: 1px solid #808080;
+   border-radius: 10px;
+   box-sizing: border-box;
+   padding: 0;
+   display: inline-block;
+   width: 732px;
+   height: auto;
 }
