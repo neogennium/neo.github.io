@@ -7,152 +7,101 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="flavicon.png" rel="icon" sizes="32x32" type="image/png">
 <link href="font-awesome.min.css" rel="stylesheet">
-<link href="Neogennium_6.0_(at_github_+_papers)_responsivo.css" rel="stylesheet">
+<link href="Neogennium_7.0_(at_github_+_papers)_responsivo.css" rel="stylesheet">
 <link href="index.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
 <script src="popper.min.js"></script>
 <script src="util.min.js"></script>
 <script src="collapse.min.js"></script>
 <script src="dropdown.min.js"></script>
-<script src="index.js"></script>
+<script>
+$(document).ready(function()
+{
+   $('#ThemeableMenu1 .dropdown-toggle').dropdown({popperConfig:{placement:'bottom-start',modifiers:{computeStyle:{gpuAcceleration:false}}}});
+   $(document).on('click','.ThemeableMenu1-navbar-collapse.show',function(e)
+   {
+      if ($(e.target).is('a') && ($(e.target).attr('class') != 'dropdown-toggle')) 
+      {
+         $(this).collapse('hide');
+      }
+   });
+});
+</script>
 </head>
 <body>
-   <div id="wb_header">
-      <div id="header">
-         <div class="row">
-            <div class="col-1">
-               <div id="wb_ThemeableMenu1" style="display:inline-block;width:100%;z-index:0;">
-                  <div id="ThemeableMenu1" class="ThemeableMenu1" style="width:100%;height:auto !important;">
-                     <div class="container">
-                        <a id="ThemeableMenu1-logo" href="#"><img alt="" title="" src="images/logo32.jpg"></a>
-                        <div class="navbar-header">
-                           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".ThemeableMenu1-navbar-collapse">
-                              <span class="icon-bar"></span>
-                              <span class="icon-bar"></span>
-                              <span class="icon-bar"></span>
-                           </button>
-                        </div>
-                        <div class="ThemeableMenu1-navbar-collapse collapse">
-                           <ul class="nav navbar-nav">
-                              <li class="nav-item">
-                                 <a href="" class="nav-link">Home</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a href="" class="nav-link">Solutions</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a href="" class="nav-link">Papers</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a href="" class="nav-link">About</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a href="" class="nav-link">Contact</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a href="" class="nav-link">|  EN  |</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a href="" class="nav-link">|  PT  |</a>
-                              </li>
-                           </ul>
-                        </div>
-                     </div>
-                  </div>
-               </div>
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1">
+<div class="row">
+<div class="col-1">
+<div id="wb_ThemeableMenu1" style="display:inline-block;width:100%;z-index:0;">
+<div id="ThemeableMenu1" class="ThemeableMenu1" style="width:100%;height:auto !important;">
+<div class="container">
+<a id="ThemeableMenu1-logo" href="#"><img alt="" title="" src="images/logo32.jpg"></a>
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".ThemeableMenu1-navbar-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div class="ThemeableMenu1-navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li class="nav-item">
+<a href="" class="nav-link">Home</a>
+</li>
+<li class="nav-item">
+<a href="" class="nav-link">Solutions</a>
+</li>
+<li class="nav-item">
+<a href="" class="nav-link">Papers</a>
+</li>
+<li class="nav-item">
+<a href="" class="nav-link">About</a>
+</li>
+<li class="nav-item">
+<a href="" class="nav-link">Contact</a>
+</li>
+<li class="nav-item">
+<a href="" class="nav-link">|  EN  |</a>
+</li>
+<li class="nav-item">
+<a href="" class="nav-link">|  PT  |</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- addthis inline -->
+<div id="Html1" style="position:absolute;left:68px;top:201px;width:435px;height:32px;z-index:2">
+
+                <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                <div class="addthis_inline_share_toolbox"></div>
             </div>
-         </div>
-      </div>
-   </div>
-   <div id="wb_LayoutGrid1">
-      <div id="LayoutGrid1">
-         <div class="row">
-            <div class="col-1">
-               <div id="wb_LayoutGrid2">
-                  <div id="LayoutGrid2">
-                     <div class="row">
-                        <div class="col-1">
-                           <div id="wb_Image3" style="display:inline-block;width:100%;height:auto;z-index:1;">
-                              <img src="images/neogennium_logotipo_fundo_cinza.gif" id="Image3" alt="">
-                           </div>
-                        </div>
-                        <div class="col-2">
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="wb_LayoutGrid3">
-      <div id="LayoutGrid3">
-         <div class="row">
-            <div class="col-1">
-               <div id="wb_Image1" style="display:inline-block;width:100%;height:auto;z-index:4;">
-                  <img src="images/owl-base-blue-eyes.jpg" id="Image1" alt="">
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="wb_LayoutGrid4">
-      <div id="LayoutGrid4">
-         <div class="row">
-            <div class="col-1">
-               <div id="wb_Text4">
-                  <span style="color:#000000;font-family:Arial;font-size:21px;line-height:24px;"><strong>Artificial </strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:21px;line-height:24px;"><strong>intelligence and technology for markets, science and engineering</strong></span>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="wb_LayoutGrid5">
-      <div id="LayoutGrid5">
-         <div class="row">
-            <div class="col-1">
-               <div id="wb_Text6">
-                  <span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:11px;"><a href="./index.html">English</a>&nbsp; <br>Brazilian Portuguese</span><span style="color:#000000;font-family:Arial;font-size:13px;"><br></span>
-               </div>
-            </div>
-            <div class="col-2">
-            </div>
-            <div class="col-3">
-               <div id="wb_Image2" style="display:inline-block;width:100%;height:auto;z-index:7;">
-                  <img src="images/neogennium.com-just-url-qrcode-simple.png" id="Image2" alt="">
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="wb_LayoutGrid6">
-      <div id="LayoutGrid6">
-         <div class="row">
-            <div class="col-1">
-            </div>
-            <div class="col-2">
-               <div id="wb_Image4" style="display:inline-block;width:100%;height:auto;z-index:8;">
-                  <img src="images/neogennium-logotipo-small-cinza -fundo-cinza.png" id="Image4" alt="">
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="wb_LayoutGrid8">
-      <div id="LayoutGrid8">
-         <div class="row">
-            <div class="col-1">
-            </div>
-            <div class="col-2">
-            </div>
-         </div>
-      </div>
-   </div>
 <!-- Start of StatCounter Code for Default Guide -->
-      <noscript><div class="statcounter"><a title="web statistics" 
+<script>
+var sc_project=10313336; 
+var sc_invisible=1; 
+var sc_security="904f5284"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="web statistics"
 href="http://statcounter.com/" target="_blank"><img
-class ="statcounter" 
-src="http://c.statcounter.com/10313336/0/904f5284/1/" 
+class="statcounter"
+src="http://c.statcounter.com/10313336/0/904f5284/1/"
 alt="web statistics"></a></div></noscript>
-<!-- End of StatCounter Code for Default Guide --></body>
+<!-- End of StatCounter Code for Default Guide -->
+
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54eaad9964fb6682"></script>
+</body>
 </html>
