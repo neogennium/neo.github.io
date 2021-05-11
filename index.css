@@ -762,190 +762,6 @@ input:focus, textarea:focus, select:focus
    background-image: none;
    padding: 0;
 }
-#wb_LayoutGrid3
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-color: #1E2329;
-   background-image: none;
-   border: 0px solid #2C3E50;
-   box-sizing: border-box;
-   margin: 0;
-}
-#LayoutGrid3
-{
-   box-sizing: border-box;
-   padding: 10px 15px 10px 15px;
-   margin-right: auto;
-   margin-left: auto;
-}
-#LayoutGrid3 > .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#LayoutGrid3 > .row > .col-1, #LayoutGrid3 > .row > .col-2
-{
-   box-sizing: border-box;
-   font-size: 0px;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
-   position: relative;
-}
-#LayoutGrid3 > .row > .col-1, #LayoutGrid3 > .row > .col-2
-{
-   float: left;
-}
-#LayoutGrid3 > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   width: 50%;
-   text-align: center;
-}
-#LayoutGrid3 > .row > .col-2
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   width: 50%;
-   text-align: center;
-}
-#LayoutGrid3:before,
-#LayoutGrid3:after,
-#LayoutGrid3 .row:before,
-#LayoutGrid3 .row:after
-{
-   display: table;
-   content: " ";
-}
-#LayoutGrid3:after,
-#LayoutGrid3 .row:after
-{
-   clear: both;
-}
-@media (max-width: 480px)
-{
-#LayoutGrid3 > .row > .col-1, #LayoutGrid3 > .row > .col-2
-{
-   float: none;
-   width: 100%;
-}
-}
-#wb_Text5 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 20px 0px 20px 0px;
-   margin: 0;
-   text-align: center;
-}
-#wb_Text5 div
-{
-   text-align: center;
-}
-#wb_Text5
-{
-   display: block;
-   margin: 0;
-   box-sizing: border-box;
-   width: 100%;
-}
-#wb_Text4 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 10px 0px 10px 0px;
-   margin: 0;
-   text-align: center;
-}
-#wb_Text4 div
-{
-   text-align: center;
-}
-#wb_Text4
-{
-   display: block;
-   margin: 0;
-   box-sizing: border-box;
-   width: 100%;
-}
-#wb_LayoutGrid4
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-color: #1E2329;
-   background-image: none;
-   border: 0px solid #233140;
-   box-sizing: border-box;
-   margin: 0;
-}
-#LayoutGrid4
-{
-   box-sizing: border-box;
-   padding: 15px 15px 20px 15px;
-   margin-right: auto;
-   margin-left: auto;
-}
-#LayoutGrid4 > .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#LayoutGrid4 > .row > .col-1
-{
-   box-sizing: border-box;
-   font-size: 0px;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
-   position: relative;
-}
-#LayoutGrid4 > .row > .col-1
-{
-   float: left;
-}
-#LayoutGrid4 > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   width: 100%;
-   text-align: left;
-}
-#LayoutGrid4:before,
-#LayoutGrid4:after,
-#LayoutGrid4 .row:before,
-#LayoutGrid4 .row:after
-{
-   display: table;
-   content: " ";
-}
-#LayoutGrid4:after,
-#LayoutGrid4 .row:after
-{
-   clear: both;
-}
-@media (max-width: 480px)
-{
-#LayoutGrid4 > .row > .col-1
-{
-   float: none;
-   width: 100%;
-}
-}
 #wb_Image1
 {
    margin: 0;
@@ -967,6 +783,12 @@ input:focus, textarea:focus, select:focus
 #wb_Image2
 {
    margin: 0;
+   -webkit-flex-grow: 0;
+   flex-grow: 0;
+   -webkit-flex-shrink: 0;
+   flex-shrink: 0;
+   -webkit-align-self: auto;
+   align-self: auto;
    vertical-align: top;
 }
 #Image2
@@ -974,13 +796,9 @@ input:focus, textarea:focus, select:focus
    border: 0px solid #000000;
    box-sizing: border-box;
    padding: 0;
-   display: block;
-   width: 100%;
+   display: inline-block;
+   width: 455px;
    height: auto;
-   max-width: 110px;
-   margin-left: auto;
-   margin-right: auto;
-   vertical-align: top;
 }
 #wb_LayoutGrid5
 {
