@@ -362,7 +362,8 @@ input:focus, textarea:focus, select:focus
 }
 #Image1
 {
-   border: 0px solid #000000;
+   border: 1px solid #696969;
+   border-radius: 16px;
    box-sizing: border-box;
    padding: 0;
    display: block;
