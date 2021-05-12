@@ -669,16 +669,6 @@ input:focus, textarea:focus, select:focus
    width: 100% !important;
 }
 }
-#wb_Shape14
-{
-   transform: rotate(0deg);
-   transform-origin: 50% 50%;
-}
-#Shape14
-{
-   border-width: 0;
-   vertical-align: top;
-}
 #Table1
 {
    border: 0px solid #00FF00;
@@ -1692,4 +1682,14 @@ input:focus, textarea:focus, select:focus
 #wb_ThemeableMenu1
 {
    z-index: 1111 !important;
+}
+#wb_Shape14
+{
+   transform: rotate(0deg);
+   transform-origin: 50% 50%;
+}
+#Shape14
+{
+   border-width: 0;
+   vertical-align: top;
 }
