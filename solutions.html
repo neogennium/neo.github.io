@@ -10,14 +10,16 @@
 <link href="Neogennium_7.0_(at_github_+_papers)_responsivo.css" rel="stylesheet">
 <link href="solutions.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
-<script src="popper.min.js"></script>
 <script src="util.min.js"></script>
+<script src="carousel.min.js"></script>
+<script src="popper.min.js"></script>
 <script src="collapse.min.js"></script>
 <script src="dropdown.min.js"></script>
 <script src="wwb16.min.js"></script>
 <script>
 $(document).ready(function()
 {
+   $("#Carousel1").bootstrapcarousel({interval:3000, pause: false});
    $('#ThemeableMenu1 .dropdown-toggle').dropdown({popperConfig:{placement:'bottom-start',modifiers:{computeStyle:{gpuAcceleration:false}}}});
    $(document).on('click','.ThemeableMenu1-navbar-collapse.show',function(e)
    {
@@ -66,19 +68,19 @@ $(document).ready(function()
 <a href="./solutions.html" class="nav-link active">Solutions</a>
 </li>
 <li class="nav-item">
-<a href="" class="nav-link">Papers</a>
+<a href="./papers.html" class="nav-link">Papers</a>
 </li>
 <li class="nav-item">
-<a href="" class="nav-link">About</a>
+<a href="./about-us.html" class="nav-link">About</a>
 </li>
 <li class="nav-item">
-<a href="" class="nav-link">Contact</a>
+<a href="./contact.html" class="nav-link">Contact</a>
 </li>
 <li class="nav-item">
-<a href="" class="nav-link">|  EN  |</a>
+<a href="./index.html" class="nav-link">|  EN  |</a>
 </li>
 <li class="nav-item">
-<a href="" class="nav-link">|  PT  |</a>
+<a href="./br/index.html" class="nav-link">|  PT  |</a>
 </li>
 </ul>
 </div>
@@ -106,7 +108,7 @@ $(document).ready(function()
 <div class="col-1">
 <div class="col-1-padding">
 <div id="wb_Text2">
-<span style="color:#00FF00;font-family:Verdana;font-size:20px;"><strong>Pavement distresses detection</strong></span><span style="color:#FFFFFF;font-family:Verdana;font-size:15px;"><br>Unique methodology based on artificial intelligence capable to detect distresses and patterns on pictures</span>
+<span style="color:#00FF00;font-family:Verdana;font-size:20px;"><strong>Pavement distresses detection</strong></span><span style="color:#FFFFFF;font-family:Verdana;font-size:15px;"><br>Unique methodology based on artificial intelligence capable to detect distresses and patterns on pictures<br><br><a href="./pavement-distresses-detection.html">More...</a></span>
 </div>
 </div>
 </div>
@@ -521,13 +523,50 @@ $(document).ready(function()
 <div class="col-1">
 <div class="col-1-padding">
 <div id="wb_Text14">
-<span style="color:#00FF00;font-family:Verdana;font-size:20px;"><strong>Stock market and<br>commodities<br></strong></span><span style="color:#FFFFFF;font-family:Verdana;font-size:15px;">Artificial intelligence based<br>modeling that works!<br>Optimum </span><span style="color:#00FF00;font-family:Verdana;font-size:20px;">buy </span><span style="color:#FFFFFF;font-family:Verdana;font-size:15px;">or </span><span style="color:#FF0000;font-family:Verdana;font-size:20px;">sell</span><span style="color:#FFFFFF;font-family:Verdana;font-size:15px;"><br>recommendation and<br>optimized trailing stop</span>
+<span style="color:#00FFFF;font-family:Verdana;font-size:20px;"><strong>Stock market and<br>commodities</strong></span><span style="color:#00FF00;font-family:Verdana;font-size:20px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Verdana;font-size:15px;">Artificial intelligence based<br>modeling that works!<br>Optimum </span><span style="color:#00FF00;font-family:Verdana;font-size:20px;">buy </span><span style="color:#FFFFFF;font-family:Verdana;font-size:15px;">or </span><span style="color:#FF0000;font-family:Verdana;font-size:20px;">sell</span><span style="color:#FFFFFF;font-family:Verdana;font-size:15px;"><br>recommendation and<br>optimized trailing stop</span>
 </div>
 </div>
 </div>
 <div class="col-2">
-<div id="wb_Image16" style="display:inline-block;width:100%;height:auto;z-index:78;">
-<img src="images/buy-sell.jpg" id="Image16" alt="">
+<div class="col-2-padding">
+<div id="wb_EmbeddedPage1" style="display:inline-block;width:100%;z-index:79;">
+<div id="wb_Carousel1" style="">
+<div id="Carousel1" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#Carousel1" data-slide-to="0" class="active"></li>
+<li data-target="#Carousel1" data-slide-to="1"></li>
+<li data-target="#Carousel1" data-slide-to="2"></li>
+<li data-target="#Carousel1" data-slide-to="3"></li>
+</ol>
+<div class="carousel-inner">
+<div class="carousel-item frame-1 active">
+<div class="carousel-innerframe">
+</div>
+</div>
+<div class="carousel-item frame-2">
+<div class="carousel-innerframe">
+</div>
+</div>
+<div class="carousel-item frame-3">
+<div class="carousel-innerframe">
+</div>
+</div>
+<div class="carousel-item frame-4">
+<div class="carousel-innerframe">
+</div>
+</div>
+</div>
+<a class="carousel-item-left carousel-control" href="#Carousel1" role="button" data-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span>
+</a>
+<a class="carousel-item-right carousel-control" href="#Carousel1" role="button" data-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+
+
+</div>
 </div>
 </div>
 </div>
@@ -538,7 +577,7 @@ $(document).ready(function()
 <div id="wb_LayoutGrid46">
 <div id="LayoutGrid46">
 <div class="col-1">
-<div id="wb_Shape13" style="display:inline-block;width:51px;height:86px;z-index:82;position:relative;">
+<div id="wb_Shape13" style="display:inline-block;width:51px;height:86px;z-index:84;position:relative;">
 <img src="images/img0013.png" id="Shape13" alt="" style="width:51px;height:86px;">
 </div>
 </div>
@@ -551,7 +590,7 @@ $(document).ready(function()
 <div id="LayoutGrid48">
 <div class="col-1">
 <div class="col-1-padding">
-<div id="wb_Image17" style="display:inline-block;width:100%;height:auto;z-index:83;">
+<div id="wb_Image17" style="display:inline-block;width:100%;height:auto;z-index:85;">
 <img src="images/Big-Data-analysis.png" id="Image17" alt="">
 </div>
 </div>
@@ -585,10 +624,10 @@ $(document).ready(function()
 </div>
 </div>
 <div class="col-2">
-<div id="wb_Image1" style="display:inline-block;width:100%;height:auto;z-index:89;">
+<div id="wb_Image1" style="display:inline-block;width:100%;height:auto;z-index:91;">
 <img src="images/neogennium.com-just-url-qrcode-simple.png" id="Image1" alt="">
 </div>
-<div id="wb_Image2" style="display:inline-block;width:100%;height:auto;z-index:90;">
+<div id="wb_Image2" style="display:inline-block;width:100%;height:auto;z-index:92;">
 <img src="images/neogennium-logotipo-small-cinza -fundo-cinza.png" id="Image2" alt="">
 </div>
 </div>
@@ -599,7 +638,7 @@ $(document).ready(function()
 <div id="LayoutGrid6">
 <div class="row">
 <div class="col-1">
-<div id="wb_JavaScript1" style="display:inline-block;width:100%;z-index:91;">
+<div id="wb_JavaScript1" style="display:inline-block;width:100%;z-index:93;">
 <div style="color:#696969;font-size:11px;font-family:Trebuchet MS;font-weight:normal;font-style:normal;text-align:center;text-decoration:none" id="copyrightnotice"></div>
 <script>
    var now = new Date();
