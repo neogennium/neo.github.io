@@ -603,17 +603,16 @@ input:focus, textarea:focus, select:focus
 #LayoutGrid13
 {
    box-sizing: border-box;
-   display: -webkit-flex;
-   display: flex;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-flex-wrap: wrap;
-   flex-wrap: wrap;
-   padding: 0;
+   padding: 10px 15px 10px 15px;
    margin-right: auto;
    margin-left: auto;
 }
-#LayoutGrid13 > .col-1, #LayoutGrid13 > .col-2, #LayoutGrid13 > .col-3
+#LayoutGrid13 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid13 > .row > .col-1, #LayoutGrid13 > .row > .col-2, #LayoutGrid13 > .row > .col-3
 {
    box-sizing: border-box;
    font-size: 0px;
@@ -622,87 +621,59 @@ input:focus, textarea:focus, select:focus
    padding-left: 15px;
    position: relative;
 }
-#LayoutGrid13 > .col-1, #LayoutGrid13 > .col-2, #LayoutGrid13 > .col-3
+#LayoutGrid13 > .row > .col-1, #LayoutGrid13 > .row > .col-2, #LayoutGrid13 > .row > .col-3
 {
-   -webkit-flex: 0 0 auto;
-   flex: 0 0 auto;
+   float: left;
 }
-#LayoutGrid13 > .col-1
+#LayoutGrid13 > .row > .col-1
 {
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   flex-basis: 8.33333333%;
-   max-width: 8.33333333%;
-   display: -webkit-flex;
-   -webkit-flex-wrap: wrap;
-   -webkit-align-content: center;
-   -webkit-align-self: stretch;
-   -webkit-align-items: center;
-   display: flex;
-   flex-wrap: wrap;
-   align-content: center;
-   align-self: stretch;
-   align-items: center;
-   -webkit-justify-content: center;
-   justify-content: center;
+   width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid13 > .col-1 > .col-1-padding
+#LayoutGrid13 > .row > .col-1 > .col-1-padding
 {
    box-sizing: border-box;
    width: 100%;
    padding: 20px 40px 20px 40px;
 }
-#LayoutGrid13 > .col-2
+#LayoutGrid13 > .row > .col-2
 {
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   flex-basis: 83.33333333%;
-   max-width: 83.33333333%;
-   display: -webkit-flex;
-   -webkit-flex-wrap: wrap;
-   -webkit-align-content: flex-start;
-   -webkit-align-self: stretch;
-   -webkit-align-items: flex-start;
-   display: flex;
-   flex-wrap: wrap;
-   align-content: flex-start;
-   align-self: stretch;
-   align-items: flex-start;
-   -webkit-justify-content: center;
-   justify-content: center;
+   width: 83.33333333%;
    text-align: center;
 }
-#LayoutGrid13 > .col-3
+#LayoutGrid13 > .row > .col-3
 {
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   flex-basis: 8.33333333%;
-   max-width: 8.33333333%;
-   display: -webkit-flex;
-   -webkit-flex-wrap: wrap;
-   -webkit-align-content: flex-start;
-   -webkit-align-self: stretch;
-   -webkit-align-items: flex-start;
-   display: flex;
-   flex-wrap: wrap;
-   align-content: flex-start;
-   align-self: stretch;
-   align-items: flex-start;
-   -webkit-justify-content: center;
-   justify-content: center;
+   width: 8.33333333%;
    text-align: center;
+}
+#LayoutGrid13:before,
+#LayoutGrid13:after,
+#LayoutGrid13 .row:before,
+#LayoutGrid13 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid13:after,
+#LayoutGrid13 .row:after
+{
+   clear: both;
 }
 @media (max-width: 480px)
 {
-#LayoutGrid13 > .col-1, #LayoutGrid13 > .col-2, #LayoutGrid13 > .col-3
+#LayoutGrid13 > .row > .col-1, #LayoutGrid13 > .row > .col-2, #LayoutGrid13 > .row > .col-3
 {
-   -webkit-flex-basis: 100% !important;
-   flex-basis: 100% !important;
-   max-width: 100% !important;
+   float: none;
+   width: 100% !important;
 }
 }
 #wb_LayoutGrid10
