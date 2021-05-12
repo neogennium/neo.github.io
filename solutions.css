@@ -792,7 +792,7 @@ input:focus, textarea:focus, select:focus
    flex-direction: row;
    -webkit-flex-wrap: wrap;
    flex-wrap: wrap;
-   padding: 20px 0px 20px 0px;
+   padding: 30px 0px 20px 0px;
    margin-right: auto;
    margin-left: auto;
 }
@@ -827,9 +827,9 @@ input:focus, textarea:focus, select:focus
    align-content: flex-start;
    align-self: stretch;
    align-items: flex-start;
-   -webkit-justify-content: flex-start;
-   justify-content: flex-start;
-   text-align: left;
+   -webkit-justify-content: center;
+   justify-content: center;
+   text-align: center;
 }
 @media (max-width: 480px)
 {
@@ -5209,4 +5209,14 @@ input:focus, textarea:focus, select:focus
    float: none;
    width: 100% !important;
 }
+}
+#wb_Shape14
+{
+   transform: rotate(0deg);
+   transform-origin: 50% 50%;
+}
+#Shape14
+{
+   border-width: 0;
+   vertical-align: top;
 }
